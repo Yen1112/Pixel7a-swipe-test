@@ -1,17 +1,18 @@
 # Pixel Swipe Script
 
-一支簡單的 Python 腳本，透過 ADB 讓 Pixel 7a 自動左右滑動螢幕 100 次，模擬翻頁動作。
+A lightweight Python script that uses ADB to automatically swipe left and right on a Pixel 7a screen, simulating a page-flipping effect.
 
-## 使用方式
+## 📱 What it does
 
-1. 確認你已安裝 ADB，且手機開啟 USB 偵錯。
-2. 連接手機。
-3. 執行腳本：
+- Connects to your Pixel 7a (or any Android device with similar screen size)
+- Performs 100 alternating left-right swipes at the center of the screen
+- Mimics natural page turning with short delay and realistic swipe distance
+
+## 🚀 How to use
+
+1. Make sure ADB is installed and your device has **USB debugging enabled**
+2. Connect your phone via USB
+3. Run the script:
 
 ```bash
 python swipe.py
-```
-
-## 注意
-- 預設滑動位置是基於 Pixel 7a 螢幕（1080x2400）。
-- 滑動時間為 200ms，可自行調整以模擬不同滑動速度。
